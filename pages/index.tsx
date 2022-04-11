@@ -1,10 +1,14 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { useRouter } from 'next/router'
 
 const Home: NextPage = () => {
-  return <div className={styles.container}>test</div>
+  const router = useRouter()
+
+  const handleBackClick = () => {
+    router.push('signup')
+  }
+
+  return <button onClick={handleBackClick}>회원가입 하러가기</button>
 }
 
 export default Home

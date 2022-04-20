@@ -12,10 +12,12 @@
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
+    "@hookform/resolvers": "^2.8.8",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-hook-form": "^7.29.0"
+    "react-hook-form": "^7.29.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.9.2",
